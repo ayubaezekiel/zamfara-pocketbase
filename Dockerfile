@@ -15,4 +15,4 @@ RUN unzip /tmp/pb.zip -d /pb/
 EXPOSE 8080
 
 # start PocketBase
-CMD ["/pb/pocketbase", "serve", "--https=mail.zamfarastate-outreach.com.ng"]
+CMD ["/pb/pocketbase", "serve", "mail.zamfarastate-outreach.com.ng"]
